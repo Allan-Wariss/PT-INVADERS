@@ -1,0 +1,88 @@
+body{
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-left: 10px;
+}
+h2,h1{
+    transition: 1s;
+    margin:0;
+}
+#pontuação{
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 120px;
+}
+canvas{
+  display: block;
+}
+#pt{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff0040 0%,
+    #ff00d4 29%,
+    #ff5e13 67%,
+    #ff0000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1s linear infinite;
+  margin: 0px;
+      font-size: 60px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+h2{
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #001aff 0%,
+     #ffffff 29%,
+     rgb(0, 174, 255) 67%,
+     #2f00ff 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 5s linear infinite;
+   display: inline-block;
+   padding-left: 10px;
+   margin: 0px;
+       font-size: 20px;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+p{
+   display: inline-block;
+   font-size: 35px;
+   margin: 0px;
+ }
+#jogadorTitulo{
+  font-weight: bold;
+  font-size: 20px;
+}
+#jogador{
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+}
